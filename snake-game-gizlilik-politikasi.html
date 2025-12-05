@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - Snake Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2E7D32;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 15px;
+        }
+
+        .app-name {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+        h2 {
+            color: #2E7D32;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        h3 {
+            color: #388E3C;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            background: #E8F5E9;
+            padding: 20px;
+            border-left: 4px solid #4CAF50;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .important {
+            background: #FFF3E0;
+            padding: 15px;
+            border-left: 4px solid #FF9800;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .contact-box {
+            background: #E3F2FD;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border-left: 4px solid #2196F3;
+        }
+
+        .contact-box h3 {
+            color: #1976D2;
+            margin-top: 0;
+        }
+
+        a {
+            color: #2196F3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="emoji">🐍</span> Gizlilik Politikası</h1>
+        <p class="last-updated"><strong>Son Güncelleme:</strong> 5 Aralık 2024</p>
+
+        <div class="highlight">
+            <p><strong><span class="emoji">🔒</span> Gizliliğiniz Önemlidir:</strong> <span class="app-name">Snake Game</span> gizliliğinizi korumaya kararlıdır. Bu gizlilik politikası, bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.</p>
+        </div>
+
+        <h2><span class="emoji">📱</span> 1. Giriş</h2>
+        <p><span class="app-name">Snake Game</span> ("biz," "bizim," veya "bize") uygulamasına hoş geldiniz. Bu Gizlilik Politikası, mobil uygulamamızı kullandığınızda bilgilerinizi nasıl işlediğimizi açıklar.</p>
+        <p><span class="app-name">Snake Game</span>, Android cihazlarda kullanılabilen klasik bir arcade oyunudur. Gizliliğinizi korumaya ve veri uygulamalarımız konusunda şeffaf olmaya kararlıyız.</p>
+
+        <h2><span class="emoji">📊</span> 2. Topladığımız Bilgiler</h2>
+        
+        <h3>2.1 Sağladığınız Bilgiler</h3>
+        <p><span class="app-name">Snake Game</span> hesap oluşturmanızı veya kişisel bilgi sağlamanızı <strong>GEREKTİRMEZ</strong>. Uygulama tamamen çevrimdışı çalışır.</p>
+
+        <h3>2.2 Otomatik Olarak Toplanan Bilgiler</h3>
+        <p>Minimal bilgileri otomatik olarak toplarız:</p>
+        <ul>
+            <li><strong>Oyun İstatistikleri:</strong> Yüksek skorlar ve oyun tercihleri (cihazınızda yerel olarak saklanır)</li>
+            <li><strong>Cihaz Bilgileri:</strong> Cihaz türü, işletim sistemi sürümü (uygulama uyumluluğu için)</li>
+            <li><strong>Uygulama Kullanımı:</strong> Uygulamayı geliştirmek için anonim kullanım istatistikleri</li>
+        </ul>
+
+        <h3>2.3 Üçüncü Taraf Hizmetler</h3>
+        <p>Bilgi toplayabilen aşağıdaki üçüncü taraf hizmetleri kullanıyoruz:</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Hizmet</th>
+                    <th>Amaç</th>
+                    <th>Toplanan Veri</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Google AdMob</strong></td>
+                    <td>Reklam gösterimi</td>
+                    <td>Reklam ID'si, cihaz bilgisi, uygulama etkileşimleri</td>
+                </tr>
+                <tr>
+                    <td><strong>Google Play Hizmetleri</strong></td>
+                    <td>Uygulama dağıtımı ve güncellemeler</td>
+                    <td>Kurulum verisi, çökme raporları</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2><span class="emoji">🎯</span> 3. Bilgileri Nasıl Kullanırız</h2>
+        <p>Toplanan bilgileri aşağıdaki amaçlar için kullanırız:</p>
+        <ol>
+            <li><strong>Oyun İşlevselliği:</strong> Yüksek skorlarınızı ve tercihlerinizi yerel olarak kaydetmek</li>
+            <li><strong>Uygulama İyileştirme:</strong> Kullanıcıların oyunla nasıl etkileşime girdiğini anlamak</li>
+            <li><strong>Hata Düzeltme:</strong> Teknik sorunları tespit etmek ve düzeltmek</li>
+            <li><strong>Reklamlar:</strong> AdMob aracılığıyla ilgili reklamları görüntülemek</li>
+            <li><strong>Performans:</strong> Oyun performansını ve kullanıcı deneyimini optimize etmek</li>
+        </ol>
+
+        <h2><span class="emoji">📢</span> 4. Reklamcılık</h2>
+        
+        <h3>4.1 AdMob Entegrasyonu</h3>
+        <p><span class="app-name">Snake Game</span>, Google AdMob aracılığıyla reklamlar gösterir. Bu reklamlar uygulamayı ücretsiz tutmamıza yardımcı olur.</p>
+
+        <h3>4.2 Reklam Kişiselleştirme</h3>
+        <p>AdMob, kişiselleştirilmiş reklamlar göstermek için Reklam ID'nizi kullanabilir. Cihaz ayarlarınızdan reklam kişiselleştirmeyi kontrol edebilirsiniz:</p>
+        <ul>
+            <li><strong>Android:</strong> Ayarlar → Google → Reklamlar → Reklam Kişiselleştirmeden Vazgeç</li>
+        </ul>
+
+        <h3>4.3 Reklam Türleri</h3>
+        <ul>
+            <li><strong>Banner Reklamlar:</strong> Menü ve oyun sonu ekranlarının alt kısmında gösterilir</li>
+            <li><strong>Geçiş Reklamları:</strong> Oyunlar arasında ara sıra gösterilen tam ekran reklamlar</li>
+        </ul>
+
+        <div class="important">
+            <p><strong><span class="emoji">⚠️</span> Önemli:</strong> Kişisel bilgilerinizi üçüncü taraflara SATMAYIZ. Reklam ağları kendi gizlilik politikaları altında çalışır.</p>
+        </div>
+
+        <h2><span class="emoji">💾</span> 5. Veri Depolama</h2>
+        
+        <h3>5.1 Yerel Depolama</h3>
+        <p>Tüm oyun verileri cihazınızda yerel olarak saklanır:</p>
+        <ul>
+            <li><strong>Yüksek Skorlar:</strong> AsyncStorage kullanılarak kaydedilir (yerel cihaz depolama)</li>
+            <li><strong>Tercihler:</strong> Dil, ses ayarları, tema tercihleri</li>
+            <li><strong>Bulut Yedeği Yok:</strong> Verilerinizi harici sunucularda saklamıyoruz</li>
+        </ul>
+
+        <h3>5.2 Veri Silme</h3>
+        <p>Tüm oyun verilerini şu yollarla silebilirsiniz:</p>
+        <ol>
+            <li>Uygulamayı kaldırarak, veya</li>
+            <li>Cihaz ayarlarından uygulama verilerini temizleyerek: Ayarlar → Uygulamalar → Snake Game → Depolama → Verileri Temizle</li>
+        </ol>
+
+        <h2><span class="emoji">🔐</span> 6. Veri Güvenliği</h2>
+        <p>Veri güvenliğini ciddiye alıyoruz:</p>
+        <ul>
+            <li><strong>Yerel Depolama:</strong> Veriler cihazınızda güvenli bir şekilde saklanır</li>
+            <li><strong>İletim Yok:</strong> Oyun verileri harici sunuculara iletilmez</li>
+            <li><strong>Şifreli Bağlantılar:</strong> Üçüncü taraf hizmetler şifreli bağlantılar kullanır</li>
+            <li><strong>Düzenli Güncellemeler:</strong> Güvenlik açıklarını düzeltmek için uygulamayı düzenli olarak güncelliyoruz</li>
+        </ul>
+
+        <div class="highlight">
+            <p><strong><span class="emoji">✅</span> Hesap Gerekmiyor:</strong> <span class="app-name">Snake Game</span> hesap oluşturma, giriş yapma veya şifre gerektirmez. Gizliliğiniz tasarım gereği korunur.</p>
+        </div>
+
+        <h2><span class="emoji">👶</span> 7. Çocukların Gizliliği</h2>
+        <p><span class="app-name">Snake Game</span> çocuklar da dahil olmak üzere her yaş için uygundur. COPPA (Çocukların Çevrimiçi Gizlilik Koruma Yasası) ile uyumluyuz:</p>
+        <ul>
+            <li>13 yaşın altındaki çocuklardan <strong>BİLEREK</strong> kişisel bilgi toplamıyoruz</li>
+            <li>Uygulamanın çalışması için kişisel bilgi gerektirmez</li>
+            <li>Gösterilen reklamlar aile dostu ve yaşa uygundur</li>
+            <li>Ebeveynler cihaz ayarlarından reklam kişiselleştirmesini kontrol edebilir</li>
+        </ul>
+
+        <h2><span class="emoji">🌍</span> 8. Uluslararası Kullanıcılar</h2>
+        <p><span class="app-name">Snake Game</span> dünya çapında kullanılabilir. Uygulamayı kullanarak, konumunuz ne olursa olsun, bu politikada açıklandığı şekilde veri işlemeye onay verirsiniz.</p>
+        <p>Avrupa Birliği'ndeki kullanıcılar için GDPR düzenlemelerine uyuyoruz:</p>
+        <ul>
+            <li><strong>Erişim Hakkı:</strong> Uygulama üzerinden yerel olarak saklanan verilerinize erişebilirsiniz</li>
+            <li><strong>Silme Hakkı:</strong> Uygulamayı kaldırarak tüm verileri silebilirsiniz</li>
+            <li><strong>Veri Taşınabilirliği:</strong> Oyun verileri yerel olarak saklanır ve yalnızca sizin erişiminize açıktır</li>
+        </ul>
+
+        <h2><span class="emoji">🔗</span> 9. Üçüncü Taraf Bağlantıları</h2>
+        <p><span class="app-name">Snake Game</span> üçüncü taraf web sitelerine veya hizmetlere bağlantılar içerebilir (örn. geliştirici web sitesi, destek sayfası). Bu üçüncü tarafların gizlilik uygulamalarından sorumlu değiliz. Lütfen gizlilik politikalarını ayrı ayrı inceleyin.</p>
+
+        <h2><span class="emoji">🔄</span> 10. Bu Gizlilik Politikasındaki Değişiklikler</h2>
+        <p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler uygulama içinde ve bu sayfada yayınlanacaktır. Üstteki "Son Güncelleme" tarihi, politikanın en son ne zaman revize edildiğini gösterir.</p>
+        <p><strong>Önemli Değişiklikler:</strong> Önemli değişiklikler yaparsak, kullanıcıları uygulama içi bildirim veya güncelleme notları aracılığıyla bilgilendireceğiz.</p>
+
+        <h2><span class="emoji">📜</span> 11. Haklarınız</h2>
+        <p>Verilerinizle ilgili aşağıdaki haklara sahipsiniz:</p>
+        <ul>
+            <li><strong>Erişim:</strong> Uygulama içinde yüksek skorlarınızı ve ayarlarınızı görüntüleyin</li>
+            <li><strong>Silme:</strong> Uygulama verilerini temizleyin veya uygulamayı kaldırın</li>
+            <li><strong>Devre Dışı Bırakma:</strong> Cihaz ayarlarından reklam kişiselleştirmesini devre dışı bırakın</li>
+            <li><strong>Şeffaflık:</strong> Veri uygulamaları hakkında bilgi isteyin (aşağıdan bizimle iletişime geçin)</li>
+        </ul>
+
+        <h2><span class="emoji">🎮</span> 12. İzinler Açıklaması</h2>
+        <p><span class="app-name">Snake Game</span> minimal izinler gerektirir:</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>İzin</th>
+                    <th>Amaç</th>
+                    <th>Gerekli mi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>İnternet</strong></td>
+                    <td>Reklamları görüntülemek</td>
+                    <td>Evet (reklamlar için)</td>
+                </tr>
+                <tr>
+                    <td><strong>Ağ Durumu</strong></td>
+                    <td>İnternet bağlantısını kontrol etmek</td>
+                    <td>Evet (reklamlar için)</td>
+                </tr>
+                <tr>
+                    <td><strong>Titreşim</strong></td>
+                    <td>Oyun sırasında dokunsal geri bildirim</td>
+                    <td>İsteğe bağlı</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2><span class="emoji">📝</span> 13. Veri Saklama</h2>
+        <p>Verileri şu şekilde saklarız:</p>
+        <ul>
+            <li><strong>Yerel Oyun Verileri:</strong> Uygulama verilerini temizleyene veya kaldırana kadar saklanır</li>
+            <li><strong>Reklam Verileri:</strong> AdMob tarafından yönetilir (Google'ın gizlilik politikasına bakın)</li>
+            <li><strong>Çökme Raporları:</strong> Hata ayıklama amacıyla 90 gün saklanır</li>
+        </ul>
+
+        <h2><span class="emoji">✉️</span> 14. Bize Ulaşın</h2>
+        <div class="contact-box">
+            <h3>Sorularınız veya Endişeleriniz mi Var?</h3>
+            <p>Bu Gizlilik Politikası veya veri uygulamalarımız hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:</p>
+            <ul>
+                <li><strong>E-posta:</strong> <a href="mailto:ayhan@ayhanarican.com">ayhan@ayhanarican.com</a></li>
+                <li><strong>Web Sitesi:</strong> <a href="https://ayhanarican.com" target="_blank">https://ayhanarican.com</a></li>
+                <li><strong>Geliştirici:</strong> Ayhan Arıcan</li>
+                <li><strong>Yanıt Süresi:</strong> 48 saat içinde yanıt vermeyi hedefliyoruz</li>
+            </ul>
+        </div>
+
+        <h2><span class="emoji">📋</span> 15. Üçüncü Taraf Gizlilik Politikaları</h2>
+        <p>Üçüncü taraf hizmetlerinin verilerinizi nasıl işlediği hakkında daha fazla bilgi için, lütfen gizlilik politikalarını inceleyin:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+            <li><strong>Google Play Hizmetleri:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+        </ul>
+
+        <h2><span class="emoji">✅</span> 16. Onay</h2>
+        <p><span class="app-name">Snake Game</span>'i kullanarak, bu Gizlilik Politikasını kabul eder ve şartlarını onaylarsınız.</p>
+        <p>Bu politikayı kabul etmiyorsanız, lütfen uygulamayı kullanmayın. Uygulamayı istediğiniz zaman kaldırabilirsiniz.</p>
+
+        <div class="highlight">
+            <h3><span class="emoji">🎯</span> Özet</h3>
+            <p><strong>Ne topluyoruz:</strong> Minimal cihaz bilgisi ve anonim kullanım istatistikleri</p>
+            <p><strong>Ne TOPLAMIYORUZ:</strong> Kişisel bilgiler, isimler, e-postalar, şifreler</p>
+            <p><strong>Veriler nerede saklanır:</strong> Cihazınızda yerel olarak</p>
+            <p><strong>Üçüncü taraflar:</strong> Reklamlar için Google AdMob</p>
+            <p><strong>Kontrolünüz:</strong> İstediğiniz zaman kaldırın, reklam kişiselleştirmesini devre dışı bırakın, uygulama verilerini temizleyin</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>🐍 Snake Game</strong></p>
+            <p>Gizlilik Politikası - Son Güncelleme: 5 Aralık 2024</p>
+            <p>© 2024 Ayhan Arıcan. Tüm Hakları Saklıdır.</p>
+            <p><a href="https://ayhanarican.com">ayhanarican.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
